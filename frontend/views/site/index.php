@@ -21,6 +21,9 @@ $this->title = '博客-首页';
 
 <!--		热门浏览-->
 		<?=\frontend\widgets\hot\HotWidget::widget()?>
+
+<!--		标签云-->
+		<?=frontend\widgets\tag\TagWidget::widget()?>
 	</div>
 
 

@@ -45,6 +45,9 @@ $this->params['breadcrumbs'][]=$this->title;
 		<div class="panel-body">
 			<!--		热门浏览-->
 			<?=HotWidget::widget()?>
+
+			<!--		标签云-->
+			<?=frontend\widgets\tag\TagWidget::widget()?>
 		</div>
 	</div>
 </div>
